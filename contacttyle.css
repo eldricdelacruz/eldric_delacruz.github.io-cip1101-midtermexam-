@@ -1,0 +1,185 @@
+/* Contact Page */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.contact input {
+  height: 40px;
+}
+
+.contact textarea {
+  height: 200px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #0062cc;
+}
+
+.contact p {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.contact .contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact .contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact .contact-info p:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+footer ul li a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	line-height: 50px;
+	text-align: center;
+	color: #333;
+	transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+	transform: scale(1.2);
+	color: #fff;
+	background-color: #333;
+}
+
+nav {
+	background-color: #333;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
